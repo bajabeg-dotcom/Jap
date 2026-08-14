@@ -1,30 +1,18 @@
 ```
 # Dependencies
 node_modules/
-venv/
-.venv/
 __pycache__/
-
-# Compiled files
 *.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+.venv/
+venv/
+.env
+.env.local
+.env.*
 
 # Build artifacts
 dist/
 build/
 target/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
 
 # Editor/IDE files
 .vscode/
@@ -36,12 +24,20 @@ htmlcov/
 # System files
 .DS_Store
 Thumbs.db
-.env
-.env.local
-*.env.*
 
 # Logs
 *.log
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
 
 # Compressed files
 *.zip
