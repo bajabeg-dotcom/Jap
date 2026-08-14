@@ -4,50 +4,34 @@ node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-zig-cache/
 
 # Build artifacts
 dist/
 build/
 target/
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.pyc
 
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-*.swo
-*.bak
-
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
+# Logs
+*.log
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
@@ -72,4 +56,21 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
 ```
